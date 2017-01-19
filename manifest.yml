@@ -1,0 +1,10 @@
+---
+applications:
+- name: jupyter
+  path: .
+  instances: 1
+  memory: 1G
+  disk_quota: 2G
+  buildpack: python_buildpack
+  command: jupyter notebook --no-browser --ip=* --port=$PORT
+
