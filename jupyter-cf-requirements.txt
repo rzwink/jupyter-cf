@@ -2,4 +2,3 @@ jupyter
 pandas
 nltk
 vaderSentiment
-matplotlib
